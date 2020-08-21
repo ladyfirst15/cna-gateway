@@ -47,7 +47,6 @@ spring:
           uri: http://delivery:8080
           predicates:
             - Path=/deliveries/**,/cancellations/**
-
         - id: mypage
            uri: http://mypage:8080
            predicates:
